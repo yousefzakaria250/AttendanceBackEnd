@@ -16,7 +16,8 @@ namespace Infrastructure.Dtos
         public DateTime To { set; get; }
         public string Reason { set; get; }
 
-        public int State { set; get; }
+        //public int State { set; get; }
+        public int DeptId {  set; get; }
         public int EmployeeId { set; get; }
     }
 }

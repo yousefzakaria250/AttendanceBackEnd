@@ -18,10 +18,12 @@ namespace Data
         
         [ForeignKey("Employee")]
         public int EmployeeId { set; get; }
+        [JsonIgnore]
         public Employee Employee { set; get; }
 
         [ForeignKey("Department")]
         public int DepartmentId { set; get; }
+        [JsonIgnore]
         public Department Department { set; get; }  
     
     }

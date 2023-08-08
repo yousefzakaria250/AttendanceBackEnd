@@ -35,6 +35,8 @@ namespace AttendaceBackEnd.Controllers
         public async Task<IActionResult> UpdateState( int Id , int State)
         {
             var res = await requestRepo.ChangeRequestStateBySupervisior(Id, State);
+            if (res == null)
+                return NotFound("This Request Not Found .");
             return Ok(res); 
         }
 
@@ -50,6 +52,8 @@ namespace AttendaceBackEnd.Controllers
         public async Task<IActionResult> UpdateStateByGm(int Id, int State)
         {
             var res = await requestRepo.ChangeRequestStateByGM(Id, State);
+            if(res== null)
+                return NotFound("This Request Not Found .");
             return Ok(res);
         }
 

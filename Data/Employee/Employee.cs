@@ -14,14 +14,15 @@ namespace Data
         public string Lname { set; get; }
         public DateTime DateOfHiring { set; get; }
         public int Balance { set; get; }
-
+        
         [ForeignKey("Department")]
         public int DepartmentId { set; get; }
+        [JsonIgnore]
         public Department Department { set; get; }
        
         [ForeignKey("Supervisior")]
        public int? SupervisiorId { set; get; }
         [JsonIgnore]
-       public Employee Supervisior { set; get; }
+       public Employee? Supervisior { set; get; }
     }
 }

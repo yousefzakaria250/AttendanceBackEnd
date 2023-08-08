@@ -17,9 +17,24 @@ namespace Infrastructure
         {
             this.Context = Context;
         }
-        public async Task<Employee> Add(EmployeeDto dto)
+        public async Task<Employee> Add(EmployeeDto dto , bool flag)
         {
-            var Emp = new Employee()
+            var Emp = new Employee();
+            if (flag)
+            {
+                 Emp = new Employee()
+                {
+                    Fname = dto.Fname,
+                    Lname = dto.Lname,
+                    DateOfHiring = dto.DateOfHiring,
+                    DepartmentId = dto.DepartmentId,
+                    SupervisiorId = null
+                };
+                await Context.AddAsync(Emp);
+                Context.SaveChanges();
+                return Emp;
+            }
+             Emp = new Employee()
             {
                 Fname = dto.Fname,
                 Lname = dto.Lname,
@@ -38,6 +53,12 @@ namespace Infrastructure
             var Employees = Context.Employee.ToListAsync();
             return Employees;
 
+        }
+
+        public Task<List<Employee>> GetAllSupervisior()
+        {
+            var Employees = Context.Employee.Where( emp=> emp.SupervisiorId == null).ToListAsync();
+            return Employees;
         }
     }
 }

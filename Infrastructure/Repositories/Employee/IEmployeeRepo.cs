@@ -10,7 +10,8 @@ namespace Infrastructure
 {
     public interface IEmployeeRepo
     {
-        public Task<Employee> Add(EmployeeDto dto);
+        public Task<Employee> Add(EmployeeDto dto , bool flag);
         public Task<List<Employee>> GetAll();
+        public Task<List<Employee>> GetAllSupervisior();
     }
 }

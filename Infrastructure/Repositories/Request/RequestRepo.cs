@@ -26,10 +26,10 @@ namespace Infrastructure
                  From = dto.From ,
                  To = dto.To ,
                  Reason = dto.Reason ,
-                 State = dto.State ,
+                 State = 0,
+                 DepartmentId = dto.DeptId ,
                  EmployeeId  = dto.EmployeeId 
             };
-
             await attendanceContext.AddAsync(request);
             attendanceContext.SaveChanges();
             return request;
@@ -45,10 +45,17 @@ namespace Infrastructure
 
         public async Task<Request> ChangeRequestStateBySupervisior(int Id, int State)
         {
-            if (State != 1)
-                State = -1 ;
             var request = await Get(Id);
-            request.State = State;
+            if (request == null)
+                return request;
+            if (State != 1)
+            {
+                request.State = -1;
+                attendanceContext.Entry(request).State = EntityState.Modified;
+                attendanceContext.SaveChanges();
+            }
+           
+            request.State = 1;
             attendanceContext.Entry(request).State = EntityState.Modified;
             attendanceContext.SaveChanges();
             return request; 
@@ -64,25 +71,33 @@ namespace Infrastructure
         public async Task<Request> ChangeRequestStateByGM(int Id, int State)
         {
             var request = await Get(Id);
+            if (request == null)
+                return request;
             if (State != 2)
             {
-                State = -1;
+                request.State = -2;
+                attendanceContext.Entry(request).State = EntityState.Modified;
+                attendanceContext.SaveChanges();
                 return request;
             }
-            request.State = State;
+            request.State = 2;
             request.Employee.Balance -= 1;
             attendanceContext.Entry(request).State = EntityState.Modified;
             attendanceContext.SaveChanges();
             return request;
         }
 
-        public async Task<List<Request>> GetAllRequestOfGM(int departmentNo)
+        public async Task<List<Request>> GetAllRequestOfGM(int departmentNo = 0)
         {
+            if (departmentNo == 0)
+            {
+                var req = await attendanceContext.Request.Where(w => w.State == 1).ToListAsync();
+                return req;
+            }
             var requests = await attendanceContext.Request
               .Where(w => w.DepartmentId == departmentNo && w.State == 1)
               .ToListAsync();
             return requests;
-
     }
 
         public async Task<Request> Delete(int Id)

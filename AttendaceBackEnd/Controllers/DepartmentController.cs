@@ -23,5 +23,12 @@ namespace AttendaceBackEnd.Controllers
             return Ok(res);
 
         }
+        [HttpGet("GetAllDepartment")]
+        public async Task<IActionResult> GetAll()
+        {
+            var res = await departmentRepo.GetAll();
+            return Ok(res); 
+
+        }
     }
 }

@@ -15,3 +15,20 @@ G:\Attendance Project New\AttendaceBackEnd\Infrastructure\obj\Debug\net6.0\ref\I
 G:\Attendance Project New\AttendaceBackEnd\Infrastructure\bin\Debug\net6.0\Data.dll
 G:\Attendance Project New\AttendaceBackEnd\Infrastructure\bin\Debug\net6.0\Data.pdb
 G:\Attendance Project New\AttendaceBackEnd\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\bin\Debug\net6.0\Data.dll
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\bin\Debug\net6.0\Data.pdb
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.AssemblyReference.cache
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\obj\Debug\net6.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+E:\Attendance Project\AttendanceBackEnd\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll

@@ -11,6 +11,7 @@ namespace Infrastructure.Dtos
         public string Fname { set; get; }
         public string Lname { set; get; }
         public DateTime DateOfHiring { set; get; }
+        public int Balance { set; get;  }
         public int DepartmentId { set; get; }
         public int? SupervisiorId { set; get; }
 

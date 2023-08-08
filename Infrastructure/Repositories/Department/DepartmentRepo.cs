@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositories
 {
@@ -27,6 +28,12 @@ namespace Infrastructure.Repositories
             await Context.AddAsync(Dept);
             Context.SaveChanges();
             return Dept; 
+        }
+
+        public async Task<List<Department>> GetAll()
+        {
+            var Dept = await Context.Department.ToListAsync();
+            return Dept;
         }
     }
 }

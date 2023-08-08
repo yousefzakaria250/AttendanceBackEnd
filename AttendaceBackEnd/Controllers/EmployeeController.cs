@@ -19,19 +19,23 @@ namespace AttendaceBackEnd.Controllers
 
         [HttpPost("AddEmployee")]
 
-        public async Task<IActionResult> Add(EmployeeDto dto)
+        public async Task<IActionResult> Add(EmployeeDto dto , bool flag)
         { 
-            var Emp = await employeeRepo.Add(dto);
+            var Emp = await employeeRepo.Add(dto , flag);
             return Ok(Emp);
         }
 
-        [HttpGet("GetAll")]
-
-        public async Task<IActionResult> GetAll()
+        [HttpGet("GetAllEmployee")]
+        public async Task<IActionResult> GetAllEmployee()
         {
             var emp = await employeeRepo.GetAll();
             return Ok(emp);
-
+        }
+        [HttpGet("GetAllSupervisior")]
+        public async Task<IActionResult> GetAllSupervisior()
+        {
+            var emp = await employeeRepo.GetAllSupervisior();
+            return Ok(emp);
         }
     }
 }

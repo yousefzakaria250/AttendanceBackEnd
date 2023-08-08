@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Attendance Project New\\AttendaceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj": {}
+    "E:\\Attendance Project\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj": {}
   },
   "projects": {
-    "G:\\Attendance Project New\\AttendaceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj": {
+    "E:\\Attendance Project\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Attendance Project New\\AttendaceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
+        "projectUniqueName": "E:\\Attendance Project\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
         "projectName": "AttendaceBackEnd",
-        "projectPath": "G:\\Attendance Project New\\AttendaceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "G:\\Attendance Project New\\AttendaceBackEnd\\AttendaceBackEnd\\obj\\",
+        "projectPath": "E:\\Attendance Project\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
+        "packagesPath": "C:\\Users\\yousef.zakaria\\.nuget\\packages\\",
+        "outputPath": "E:\\Attendance Project\\AttendanceBackEnd\\AttendaceBackEnd\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yousef.zakaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +25,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\Attendance Project New\\AttendaceBackEnd\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "G:\\Attendance Project New\\AttendaceBackEnd\\Infrastructure\\Infrastructure.csproj"
+              "E:\\Attendance Project\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\Attendance Project\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -45,6 +47,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AspNetCore.Reporting": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -54,6 +60,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -75,21 +85,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Attendance Project New\\AttendaceBackEnd\\Data\\Data.csproj": {
+    "E:\\Attendance Project\\AttendanceBackEnd\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Attendance Project New\\AttendaceBackEnd\\Data\\Data.csproj",
+        "projectUniqueName": "E:\\Attendance Project\\AttendanceBackEnd\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "G:\\Attendance Project New\\AttendaceBackEnd\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "G:\\Attendance Project New\\AttendaceBackEnd\\Data\\obj\\",
+        "projectPath": "E:\\Attendance Project\\AttendanceBackEnd\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\yousef.zakaria\\.nuget\\packages\\",
+        "outputPath": "E:\\Attendance Project\\AttendanceBackEnd\\Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yousef.zakaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,21 +157,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Attendance Project New\\AttendaceBackEnd\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\Attendance Project\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Attendance Project New\\AttendaceBackEnd\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\Attendance Project\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "G:\\Attendance Project New\\AttendaceBackEnd\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "G:\\Attendance Project New\\AttendaceBackEnd\\Infrastructure\\obj\\",
+        "projectPath": "E:\\Attendance Project\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\yousef.zakaria\\.nuget\\packages\\",
+        "outputPath": "E:\\Attendance Project\\AttendanceBackEnd\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yousef.zakaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,8 +188,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\Attendance Project New\\AttendaceBackEnd\\Data\\Data.csproj": {
-                "projectPath": "G:\\Attendance Project New\\AttendaceBackEnd\\Data\\Data.csproj"
+              "E:\\Attendance Project\\AttendanceBackEnd\\Data\\Data.csproj": {
+                "projectPath": "E:\\Attendance Project\\AttendanceBackEnd\\Data\\Data.csproj"
               }
             }
           }
@@ -237,7 +253,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
