@@ -1,4 +1,5 @@
 ﻿using Data.Attendance;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public class AttendanceContext : DbContext
+    public class AttendanceContext : IdentityDbContext<Employee>
     {
         public AttendanceContext(DbContextOptions options) : base(options)
         {
@@ -31,6 +32,7 @@ namespace Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Employee>()
                                .HasOne(c => c.Supervisior)
                                .WithMany()

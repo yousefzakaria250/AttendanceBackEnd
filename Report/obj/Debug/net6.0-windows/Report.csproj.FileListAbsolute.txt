@@ -1,0 +1,7 @@
+G:\Attendance Last Version\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.csproj.AssemblyReference.cache
+G:\Attendance Last Version\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.Form1.resources
+G:\Attendance Last Version\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.csproj.GenerateResource.cache
+G:\Attendance Last Version\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.GeneratedMSBuildEditorConfig.editorconfig
+G:\Attendance Last Version\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.AssemblyInfoInputs.cache
+G:\Attendance Last Version\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.AssemblyInfo.cs
+G:\Attendance Last Version\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.csproj.CoreCompileInputs.cache

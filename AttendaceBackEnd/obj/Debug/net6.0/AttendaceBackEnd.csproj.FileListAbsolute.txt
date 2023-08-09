@@ -1,170 +1,98 @@
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\appsettings.Development.json
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\appsettings.json
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.exe
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.deps.json
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.runtimeconfig.json
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.pdb
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.csproj.AssemblyReference.cache
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.GeneratedMSBuildEditorConfig.editorconfig
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.AssemblyInfoInputs.cache
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.AssemblyInfo.cs
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.csproj.CoreCompileInputs.cache
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.MvcApplicationPartsAssemblyInfo.cs
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.MvcApplicationPartsAssemblyInfo.cache
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.AttendaceBackEnd.Microsoft.AspNetCore.StaticWebAssets.props
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.build.AttendaceBackEnd.props
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AttendaceBackEnd.props
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AttendaceBackEnd.props
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets.pack.json
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets.build.json
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets.development.json
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\scopedcss\bundle\AttendaceBackEnd.styles.css
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.csproj.CopyComplete
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\refint\AttendaceBackEnd.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.pdb
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.genruntimeconfig.cache
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\ref\AttendaceBackEnd.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Drawing.Common.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Runtime.Caching.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Security.Permissions.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Windows.Extensions.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Infrastructure.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Infrastructure.pdb
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Humanizer.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Data.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Data.pdb
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\EPPlus.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\EPPlus.Interfaces.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\EPPlus.System.Drawing.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-G:\Attendance Project New\AttendaceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\appsettings.Development.json
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\appsettings.json
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.exe
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.deps.json
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.runtimeconfig.json
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.pdb
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\EPPlus.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\EPPlus.Interfaces.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\EPPlus.System.Drawing.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Humanizer.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Drawing.Common.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Runtime.Caching.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Security.Permissions.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Windows.Extensions.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Data.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Infrastructure.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Infrastructure.pdb
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Data.pdb
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.csproj.AssemblyReference.cache
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.GeneratedMSBuildEditorConfig.editorconfig
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.AssemblyInfoInputs.cache
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.AssemblyInfo.cs
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.csproj.CoreCompileInputs.cache
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.MvcApplicationPartsAssemblyInfo.cs
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.MvcApplicationPartsAssemblyInfo.cache
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.AttendaceBackEnd.Microsoft.AspNetCore.StaticWebAssets.props
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.build.AttendaceBackEnd.props
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AttendaceBackEnd.props
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AttendaceBackEnd.props
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets.pack.json
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets.build.json
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets.development.json
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\scopedcss\bundle\AttendaceBackEnd.styles.css
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.csproj.CopyComplete
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\refint\AttendaceBackEnd.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.pdb
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.genruntimeconfig.cache
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\ref\AttendaceBackEnd.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AspNetCore.Reporting.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AspNetCore.ReportingServices.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Newtonsoft.Json.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.CodeDom.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Data.SqlClient.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.ServiceModel.Http.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.ServiceModel.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
-E:\Attendance Project\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\appsettings.Development.json
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\appsettings.json
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.exe
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.deps.json
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.runtimeconfig.json
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AttendaceBackEnd.pdb
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AspNetCore.Reporting.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\AspNetCore.ReportingServices.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\EPPlus.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\EPPlus.Interfaces.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Humanizer.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.OpenApi.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Newtonsoft.Json.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.CodeDom.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Data.SqlClient.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Runtime.Caching.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Security.Permissions.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.ServiceModel.Http.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.ServiceModel.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\System.Windows.Extensions.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Data.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Infrastructure.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Infrastructure.pdb
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Data.pdb
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.csproj.AssemblyReference.cache
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.GeneratedMSBuildEditorConfig.editorconfig
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.AssemblyInfoInputs.cache
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.AssemblyInfo.cs
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.csproj.CoreCompileInputs.cache
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.MvcApplicationPartsAssemblyInfo.cs
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.MvcApplicationPartsAssemblyInfo.cache
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.AttendaceBackEnd.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.build.AttendaceBackEnd.props
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AttendaceBackEnd.props
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AttendaceBackEnd.props
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets.pack.json
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets.build.json
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\staticwebassets.development.json
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\scopedcss\bundle\AttendaceBackEnd.styles.css
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.csproj.CopyComplete
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\refint\AttendaceBackEnd.dll
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.pdb
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.genruntimeconfig.cache
+G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\ref\AttendaceBackEnd.dll

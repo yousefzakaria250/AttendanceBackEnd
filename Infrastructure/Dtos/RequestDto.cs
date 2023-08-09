@@ -18,6 +18,6 @@ namespace Infrastructure.Dtos
 
         //public int State { set; get; }
         public int DeptId {  set; get; }
-        public int EmployeeId { set; get; }
+        public string EmployeeId { set; get; }
     }
 }

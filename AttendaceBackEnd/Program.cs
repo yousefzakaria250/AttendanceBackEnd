@@ -1,7 +1,10 @@
 using Data;
 using Infrastructure;
+using Infrastructure.Constants;
 using Infrastructure.Repositories;
 using Infrastructure.Repositories.Attendance;
+using Infrastructure.Repositories.User;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,10 +18,15 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AttendanceContext>(
         options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("AttendConnection")));
+builder.Services.Configure<JWT>(builder.Configuration.GetSection("JWT"));
+builder.Services.AddIdentity<Employee, IdentityRole>().AddEntityFrameworkStores<AttendanceContext>()
+    .AddDefaultTokenProviders();
+builder.Services.AddScoped<SignInManager<Employee>>();
 builder.Services.AddScoped<IDepartmentRepo, DepartmentRepo>();
 builder.Services.AddScoped<IEmployeeRepo , EmployeeRepo>();
 builder.Services.AddScoped<IRequestRepo , RequestRepo>();
-builder.Services.AddScoped<IAttendanceRepo , AttendanceRepo>(); 
+builder.Services.AddScoped<IAttendanceRepo , AttendanceRepo>();
+builder.Services.AddScoped<IUserRepo, UserRepo>();
 
 var app = builder.Build();
 
@@ -30,9 +38,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
+app.UseAuthentication();
 app.MapControllers();
 
 app.Run();

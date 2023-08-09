@@ -17,9 +17,9 @@ namespace Data
         public int State { set; get; }
         
         [ForeignKey("Employee")]
-        public int EmployeeId { set; get; }
+        public string? EmployeeId { set; get; }
         [JsonIgnore]
-        public Employee Employee { set; get; }
+        public Employee? Employee { set; get; }
 
         [ForeignKey("Department")]
         public int DepartmentId { set; get; }

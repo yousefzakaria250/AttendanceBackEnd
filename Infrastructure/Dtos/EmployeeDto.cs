@@ -13,7 +13,7 @@ namespace Infrastructure.Dtos
         public DateTime DateOfHiring { set; get; }
         public int Balance { set; get;  }
         public int DepartmentId { set; get; }
-        public int? SupervisiorId { set; get; }
+        public string? SupervisiorId { set; get; }
 
     }
 }
