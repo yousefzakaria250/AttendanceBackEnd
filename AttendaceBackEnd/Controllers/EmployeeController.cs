@@ -49,6 +49,7 @@ namespace AttendaceBackEnd.Controllers
         public async Task<IActionResult> Get()
         {
             string UserId =  userManager.GetUserId(HttpContext.User);
+            .
             var res = await employeeRepo.GetEmployee(UserId);
             return Ok(res);
         }
