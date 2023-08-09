@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Attendance Last Version\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj": {}
+    "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj": {}
   },
   "projects": {
-    "G:\\Attendance Last Version\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj": {
+    "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Attendance Last Version\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
+        "projectUniqueName": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
         "projectName": "AttendaceBackEnd",
-        "projectPath": "G:\\Attendance Last Version\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "G:\\Attendance Last Version\\AttendanceBackEnd\\AttendaceBackEnd\\obj\\",
+        "projectPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
+        "packagesPath": "C:\\Users\\yousef.zakaria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\AttendaceBackEnd\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yousef.zakaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +25,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\Attendance Last Version\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "G:\\Attendance Last Version\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -83,21 +85,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Attendance Last Version\\AttendanceBackEnd\\Data\\Data.csproj": {
+    "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Attendance Last Version\\AttendanceBackEnd\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "G:\\Attendance Last Version\\AttendanceBackEnd\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "G:\\Attendance Last Version\\AttendanceBackEnd\\Data\\obj\\",
+        "projectPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\yousef.zakaria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yousef.zakaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -134,6 +139,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.20, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
@@ -152,21 +161,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Attendance Last Version\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Attendance Last Version\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "G:\\Attendance Last Version\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "G:\\Attendance Last Version\\AttendanceBackEnd\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\yousef.zakaria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yousef.zakaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -180,8 +192,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\Attendance Last Version\\AttendanceBackEnd\\Data\\Data.csproj": {
-                "projectPath": "G:\\Attendance Last Version\\AttendanceBackEnd\\Data\\Data.csproj"
+              "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Data\\Data.csproj"
               }
             }
           }
@@ -245,7 +257,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

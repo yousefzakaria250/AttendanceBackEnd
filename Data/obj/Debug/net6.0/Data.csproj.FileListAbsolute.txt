@@ -22,3 +22,15 @@ E:\Attendance Project\AttendanceBackEnd\Data\obj\Debug\net6.0\Data.dll
 E:\Attendance Project\AttendanceBackEnd\Data\obj\Debug\net6.0\refint\Data.dll
 E:\Attendance Project\AttendanceBackEnd\Data\obj\Debug\net6.0\Data.pdb
 E:\Attendance Project\AttendanceBackEnd\Data\obj\Debug\net6.0\ref\Data.dll
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\bin\Debug\net6.0\Data.deps.json
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\bin\Debug\net6.0\Data.dll
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\bin\Debug\net6.0\Data.pdb
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\obj\Debug\net6.0\Data.dll
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\obj\Debug\net6.0\refint\Data.dll
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\obj\Debug\net6.0\Data.pdb
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Data\obj\Debug\net6.0\ref\Data.dll

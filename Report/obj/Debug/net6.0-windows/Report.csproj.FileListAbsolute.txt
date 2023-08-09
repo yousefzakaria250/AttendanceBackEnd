@@ -1,0 +1,7 @@
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.csproj.AssemblyReference.cache
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.Form1.resources
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.csproj.GenerateResource.cache
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.AssemblyInfoInputs.cache
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.AssemblyInfo.cs
+C:\Users\yousef.zakaria\Desktop\New folder (2)\AttendanceBackEnd\Report\obj\Debug\net6.0-windows\Report.csproj.CoreCompileInputs.cache
