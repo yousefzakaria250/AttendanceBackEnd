@@ -48,6 +48,8 @@ namespace Infrastructure
             return Emp;
         }
 
+        
+
         public Task<List<Employee>> GetAll()
         {
             var Employees = Context.Employee.ToListAsync();
@@ -59,6 +61,12 @@ namespace Infrastructure
         {
             var Employees = Context.Employee.Where( emp=> emp.SupervisiorId == null).ToListAsync();
             return Employees;
+        }
+
+        public async Task<Employee> GetEmployee(string UserId)
+        {
+            var Emp = await Context.Employee.Include(r=>r.Requests).Where(e=> e.Id == UserId).FirstOrDefaultAsync();
+            return Emp;
         }
     }
 }

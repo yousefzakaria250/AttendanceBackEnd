@@ -13,5 +13,6 @@ namespace Infrastructure
         public Task<Employee> Add(EmployeeDto dto , bool flag);
         public Task<List<Employee>> GetAll();
         public Task<List<Employee>> GetAllSupervisior();
+        public Task<Employee> GetEmployee(string UserId);
     }
 }

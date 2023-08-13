@@ -96,4 +96,3 @@ G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\r
 G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.pdb
 G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\AttendaceBackEnd.genruntimeconfig.cache
 G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\obj\Debug\net6.0\ref\AttendaceBackEnd.dll
-G:\Attendance Last Version\AttendanceBackEnd\AttendaceBackEnd\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll
