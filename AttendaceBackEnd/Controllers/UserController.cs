@@ -66,6 +66,7 @@ namespace AttendaceBackEnd.Controllers
         {
             var userName = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var user = await userManager.FindByNameAsync(userName);
+            var res = await repo.GetCurrentUser(user.Id);
             return Ok(user);
         }
 

@@ -2,6 +2,7 @@
 using Infrastructure.Constants;
 using Infrastructure.Dtos;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -149,6 +150,13 @@ namespace Infrastructure.Repositories.User
             signingCredentials: signingCred
          );
             return myToken;
+        }
+
+        public async Task<List<Request>> GetCurrentUser(string UserId)
+        {
+            var CurrentUserRequest = await context.Request.Where(r => r.EmployeeId == UserId).ToListAsync();
+            return CurrentUserRequest;
+
         }
     }
 }

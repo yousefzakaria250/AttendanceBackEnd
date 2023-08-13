@@ -22,9 +22,6 @@ namespace AttendaceBackEnd.Controllers
             this.employeeRepo = employeeRepo;
         }
 
-
-      
-
         [HttpPost("AddEmployee")]
         [Authorize]
         public async Task<IActionResult> Add(EmployeeDto dto , bool flag)
@@ -46,13 +43,6 @@ namespace AttendaceBackEnd.Controllers
             return Ok(emp);
         }
 
-        [HttpGet("GetEmployee")]
-        public async Task<IActionResult> Get()
-        {
-            string UserId =  userManager.GetUserId(HttpContext.User);
-            .
-            var res = await employeeRepo.GetEmployee(UserId);
-            return Ok(res);
-        }
+     
     }
 }
