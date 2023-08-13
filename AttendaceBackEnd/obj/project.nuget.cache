@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xwEdW61JI6H7VMNpQ1320iBXx45fwTmGmLRR+JEs3DjcvL5mvoT7slCalsAwEqbUiK3PYN4tw7yJQAB0tFLWiQ==",
+  "dgSpecHash": "vxlsJ7GsMU8Iat9IiPwtsa8tS6RfCz7lEycWqbhuipXnbfm8p8xXmGfczzRo+zlicqoB1e77+mtz6bsYDzDxvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
   "expectedPackageFiles": [
@@ -94,10 +94,12 @@
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.security.claims\\4.3.0\\system.security.claims.4.3.0.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.3\\system.security.cryptography.pkcs.6.0.3.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
+    "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.security.principal\\4.3.0\\system.security.principal.4.3.0.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.servicemodel.http\\4.5.3\\system.servicemodel.http.4.5.3.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\system.servicemodel.primitives\\4.5.3\\system.servicemodel.primitives.4.5.3.nupkg.sha512",

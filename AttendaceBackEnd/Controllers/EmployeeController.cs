@@ -1,6 +1,7 @@
 ﻿using Data;
 using Infrastructure;
 using Infrastructure.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -14,15 +15,18 @@ namespace AttendaceBackEnd.Controllers
     {
         private readonly UserManager<Employee> userManager;
         private readonly IEmployeeRepo employeeRepo;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public EmployeeController(IEmployeeRepo employeeRepo , UserManager<Employee> userManager)
+
+        public EmployeeController(IEmployeeRepo employeeRepo, UserManager<Employee> userManager, IHttpContextAccessor httpContextAccessor)
         {
             this.userManager = userManager;
             this.employeeRepo = employeeRepo;
+            _httpContextAccessor = httpContextAccessor;
         }
 
 
-      
+
 
         [HttpPost("AddEmployee")]
 
@@ -45,13 +49,5 @@ namespace AttendaceBackEnd.Controllers
             return Ok(emp);
         }
 
-        [HttpGet("GetEmployee")]
-        public async Task<IActionResult> Get()
-        {
-            string UserId =  userManager.GetUserId(HttpContext.User);
-            .
-            var res = await employeeRepo.GetEmployee(UserId);
-            return Ok(res);
-        }
     }
 }
