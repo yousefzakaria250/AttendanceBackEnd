@@ -25,11 +25,8 @@ namespace AttendaceBackEnd.Controllers
             _httpContextAccessor = httpContextAccessor;
         }
 
-
-
-
         [HttpPost("AddEmployee")]
-
+        [Authorize]
         public async Task<IActionResult> Add(EmployeeDto dto , bool flag)
         { 
             var Emp = await employeeRepo.Add(dto , flag);
@@ -48,6 +45,7 @@ namespace AttendaceBackEnd.Controllers
             var emp = await employeeRepo.GetAllSupervisior();
             return Ok(emp);
         }
+
 
     }
 }
