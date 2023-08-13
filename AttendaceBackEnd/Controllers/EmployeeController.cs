@@ -1,5 +1,6 @@
 ﻿using Infrastructure;
 using Infrastructure.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,7 +19,7 @@ namespace AttendaceBackEnd.Controllers
         }
 
         [HttpPost("AddEmployee")]
-
+        [Authorize]
         public async Task<IActionResult> Add(EmployeeDto dto , bool flag)
         { 
             var Emp = await employeeRepo.Add(dto , flag);

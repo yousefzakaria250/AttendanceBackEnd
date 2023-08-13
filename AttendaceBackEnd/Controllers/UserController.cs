@@ -1,7 +1,14 @@
-﻿using Infrastructure.Dtos;
+﻿using AspNetCore.ReportingServices.ReportProcessing.ReportObjectModel;
+using Data;
+using Infrastructure.Dtos;
 using Infrastructure.Repositories.User;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.JsonWebTokens;
+using System.Security.Claims;
 
 namespace AttendaceBackEnd.Controllers
 {
@@ -10,10 +17,13 @@ namespace AttendaceBackEnd.Controllers
     public class UserController : ControllerBase
     {
        private readonly IUserRepo repo ;
-
-        public UserController(IUserRepo repo)
+        private readonly IHttpContextAccessor httpContextAccessor ;
+        private readonly Microsoft.AspNetCore.Identity.UserManager<Employee> userManager;
+        public UserController(IUserRepo repo, IHttpContextAccessor httpContextAccessor, Microsoft.AspNetCore.Identity.UserManager<Employee> userManager)
         {
             this.repo = repo;
+            this.httpContextAccessor = httpContextAccessor;
+            this.userManager = userManager;
         }
 
         [HttpPost("Register")]
@@ -48,5 +58,16 @@ namespace AttendaceBackEnd.Controllers
             }
             return BadRequest(ModelState);
         }
+
+        
+        [HttpGet("GetCurrentUser")]
+        [Authorize]
+        public async Task<IActionResult> GetCurrentUser()
+        {
+            var userName = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var user = await userManager.FindByNameAsync(userName);
+            return Ok(user);
+        }
+
     }
 }
