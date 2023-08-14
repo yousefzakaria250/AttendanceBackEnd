@@ -46,6 +46,14 @@ namespace AttendaceBackEnd.Controllers
             return Ok(emp);
         }
 
+
+        [HttpGet("GetAllSupervisiorByDeptId")]
+        public async Task<IActionResult> GetAllSupervisiorByDeptId(int DeptId)
+        {
+            var emp = await employeeRepo.GetAllSupervisiorByDeptId(DeptId);
+            return Ok(emp);
+        }
+
         [HttpPut("UpdateEmployee")]
 
         public async Task<IActionResult> UpdateEmployee(string UserId, EmpDto empDto)

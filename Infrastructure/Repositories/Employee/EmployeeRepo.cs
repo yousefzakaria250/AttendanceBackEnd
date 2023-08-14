@@ -85,6 +85,13 @@ namespace Infrastructure
             var Employees = await Context.Employee.Where( emp=> ( emp.SupervisiorId == null && emp.IsDeleted != 1 ) ).ToListAsync();
             return Employees;
         }
+
+        public async Task<List<Employee>> GetAllSupervisiorByDeptId(int DeptId)
+        {
+            var Employees = await Context.Employee.Where(emp => (emp.SupervisiorId == null && emp.IsDeleted != 1 && emp.DepartmentId == DeptId)).ToListAsync();
+            return Employees;
+        }
+
         public async Task<Employee> GetEmployee(string UserId)
         {
             var Emp = await Context.Employee.Include(r=>r.Requests).Where(e=> e.Id == UserId).FirstOrDefaultAsync();
