@@ -1,5 +1,6 @@
 ﻿using Data;
 using Infrastructure.Dtos;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -12,10 +13,12 @@ namespace Infrastructure
     public class EmployeeRepo : IEmployeeRepo
     {
         private readonly AttendanceContext Context;
+        private readonly UserManager<Employee>  userManager;
 
-        public EmployeeRepo(AttendanceContext Context)
+        public EmployeeRepo(AttendanceContext Context, UserManager<Employee> userManager)
         {
             this.Context = Context;
+            this.userManager = userManager;
         }
         public async Task<Employee> Add(EmployeeDto dto , bool flag)
         {
@@ -48,34 +51,58 @@ namespace Infrastructure
             return Emp;
         }
 
-        
-
-        public Task<List<Employee>> GetAll()
+        public async Task<Employee> Delete(string UserId)
         {
-            var Employees = Context.Employee.ToListAsync();
+            var emp = await GetEmployee(UserId);
+            emp.IsDeleted = 1;
+            emp.DateofLeaving = DateTime.Now;
+            Context.Entry(emp).State = EntityState.Modified;
+            Context.SaveChanges();
+            return emp;
+        }
+        public async Task<List<Employee>> GetAll()
+        {
+            
+            var Employees = await Context.Employee.Where(s=> ( s.SupervisiorId != null && s.IsDeleted != 1) ).ToListAsync();
             return Employees;
 
         }
-
-        public Task<List<Employee>> GetAllSupervisior()
+        public async Task<dynamic> GetAllLeavingEmployee()
         {
-            var Employees = Context.Employee.Where( emp=> emp.SupervisiorId == null).ToListAsync();
+            var res = await Context.Employee.Include(d=>d.Department).Where(s=> s.IsDeleted == 1).Select(emp =>new 
+            {
+                FName = emp.Fname,
+                LName = emp.Lname ,
+                deptName = emp.Department.Name ,
+                DateofHiring = emp.DateOfHiring ,
+                DateOfLeaving = emp.DateofLeaving ,
+                Time = emp.DateofLeaving - emp.DateOfHiring
+            }).ToListAsync();
+            return res;
+        }
+        public async Task<List<Employee>> GetAllSupervisior()
+        {
+            var Employees = await Context.Employee.Where( emp=> ( emp.SupervisiorId == null && emp.IsDeleted != 1 ) ).ToListAsync();
             return Employees;
         }
-
         public async Task<Employee> GetEmployee(string UserId)
         {
             var Emp = await Context.Employee.Include(r=>r.Requests).Where(e=> e.Id == UserId).FirstOrDefaultAsync();
             return Emp;
         }
-
-        public async Task<Employee> Update(string UserId , int balance)
+        public async Task<Employee> Update(string UserId , EmpDto empDto)
         {
             var Emp = await GetEmployee(UserId);
-            Emp.Balance = balance;
+            Emp.Fname = empDto.Fname;
+            Emp.Lname = empDto.Lname;
+            Emp.Balance = empDto.Balance;
             Context.Entry(Emp).State = EntityState.Modified;
             Context.SaveChanges();
             return Emp; 
         }
+
+        
+
+
     }
 }

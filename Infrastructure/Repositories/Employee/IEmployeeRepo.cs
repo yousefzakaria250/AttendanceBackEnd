@@ -14,6 +14,8 @@ namespace Infrastructure
         public Task<List<Employee>> GetAll();
         public Task<List<Employee>> GetAllSupervisior();
         public Task<Employee> GetEmployee(string UserId);
-        public Task<Employee> Update(string UserId , int balance);
+        public Task<Employee> Update(string UserId , EmpDto empDto);
+        public Task<Employee> Delete(string UserId);
+        public Task<dynamic> GetAllLeavingEmployee();
     }
 }

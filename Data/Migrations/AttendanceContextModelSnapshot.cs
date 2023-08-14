@@ -91,6 +91,9 @@ namespace Data.Migrations
                     b.Property<DateTime>("DateOfHiring")
                         .HasColumnType("datetime2");
 
+                    b.Property<DateTime?>("DateofLeaving")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("DepartmentId")
                         .HasColumnType("int");
 
@@ -104,6 +107,9 @@ namespace Data.Migrations
                     b.Property<string>("Fname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("IsDeleted")
+                        .HasColumnType("int");
 
                     b.Property<string>("Lname")
                         .IsRequired()
@@ -212,7 +218,6 @@ namespace Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("EmployeeId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime>("From")
@@ -397,9 +402,7 @@ namespace Data.Migrations
 
                     b.HasOne("Data.Employee", "Employee")
                         .WithMany("Requests")
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("EmployeeId");
 
                     b.Navigation("Department");
 

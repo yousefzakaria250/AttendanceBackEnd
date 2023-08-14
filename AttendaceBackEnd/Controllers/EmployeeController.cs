@@ -46,11 +46,27 @@ namespace AttendaceBackEnd.Controllers
             return Ok(emp);
         }
 
-        [HttpPut("UpdateBalance")]
+        [HttpPut("UpdateEmployee")]
 
-        public async Task<IActionResult> UpdateBalance(string UserId, int balance)
+        public async Task<IActionResult> UpdateEmployee(string UserId, EmpDto empDto)
         {
-            var res = await employeeRepo.Update(UserId, balance);
+            var res = await employeeRepo.Update(UserId, empDto);
+            return Ok(res);
+
+        }
+
+        [HttpPatch("DeleteEmplyee")]
+        public async Task<IActionResult> DeleteEmployee(string UserId)
+        {
+            var res = await employeeRepo.Delete(UserId);
+            return Ok(res);
+
+        }
+
+        [HttpGet("GetAllDeleteEmployee")]
+        public async Task<IActionResult> GetAllLeavingEmployee()
+        {
+            var res = await employeeRepo.GetAllLeavingEmployee();
             return Ok(res);
 
         }

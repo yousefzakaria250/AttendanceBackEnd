@@ -66,8 +66,8 @@ var app = builder.Build();
     app.UseSwagger();
     app.UseSwaggerUI();
 //}
-
 app.UseHttpsRedirection();
+app.UseCors("_myAllowSpecificOrigins");
 app.MapControllers();
 app.UseAuthentication();
 app.UseAuthorization();

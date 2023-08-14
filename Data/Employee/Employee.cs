@@ -16,7 +16,8 @@ namespace Data
         public string Lname { set; get; }
         public DateTime DateOfHiring { set; get; }
         public int Balance { set; get; }
-
+        public int? IsDeleted { set; get; }
+        public DateTime ? DateofLeaving { set; get; }
         public ICollection<Request> Requests { set; get; }
 
         [ForeignKey("Department")]
