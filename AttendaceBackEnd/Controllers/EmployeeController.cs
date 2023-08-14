@@ -46,6 +46,15 @@ namespace AttendaceBackEnd.Controllers
             return Ok(emp);
         }
 
+        [HttpPut("UpdateBalance")]
+
+        public async Task<IActionResult> UpdateBalance(string UserId, int balance)
+        {
+            var res = await employeeRepo.Update(UserId, balance);
+            return Ok(res);
+
+        }
+
 
     }
 }

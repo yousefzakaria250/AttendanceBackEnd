@@ -1,5 +1,7 @@
 ﻿using Infrastructure;
+using Infrastructure.Constants;
 using Infrastructure.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,6 +26,7 @@ namespace AttendaceBackEnd.Controllers
         }
         ///
         [HttpGet("GetAllRequestsSupervisior")]
+        [Authorize(Roles = "DM")]
         public async Task<IActionResult> GetAll(int deptNo)
         {
             var res = await requestRepo.GetAllRequestOfSupervisior(deptNo);
@@ -32,6 +35,7 @@ namespace AttendaceBackEnd.Controllers
 
 
         [HttpPatch("ChangeRequestStateOfSupervisior")]
+        [Authorize(Roles = "DM")]
         public async Task<IActionResult> UpdateState( int Id , int State)
         {
             var res = await requestRepo.ChangeRequestStateBySupervisior(Id, State);
@@ -41,6 +45,7 @@ namespace AttendaceBackEnd.Controllers
         }
 
         [HttpGet("GetAllRequestOfGm")]
+        [Authorize(Roles = "GM")]
         public async Task<IActionResult> GetAllOfGM(int deptNo)
         {
             var res = await requestRepo.GetAllRequestOfGM(deptNo);
@@ -49,6 +54,7 @@ namespace AttendaceBackEnd.Controllers
 
 
         [HttpPatch("ChangeRequestStateByGM")]
+        [Authorize(Roles = "GM")]
         public async Task<IActionResult> UpdateStateByGm(int Id, int State)
         {
             var res = await requestRepo.ChangeRequestStateByGM(Id, State);

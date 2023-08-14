@@ -1,5 +1,7 @@
 ﻿using AspNetCore.Reporting;
 using Data;
+using Infrastructure.Constants;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
@@ -20,8 +22,9 @@ namespace AttendaceBackEnd.Controllers
         }
 
 
-         [HttpGet]
-          public ActionResult Export_Data(DateTime dateTime)
+        [HttpGet]
+        [Authorize(Roles = "HR")]
+        public ActionResult Export_Data(DateTime dateTime)
         {
 
             var byteRes = new byte[] { };

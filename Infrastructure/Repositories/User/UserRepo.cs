@@ -63,7 +63,7 @@ namespace Infrastructure.Repositories.User
             if (result.Succeeded)
             {
                 // assign  new user to Role As user
-                result = await userManger.AddToRoleAsync(user,Roles.UserRole);
+                result = await userManger.AddToRoleAsync(user,userDTO.Role);
                 if (!result.Succeeded)
                     return new AuthResponse { Message = "Not Role Added" };
                 var jwtSecurityToken = await this.CreateJwtToken(user);
@@ -134,7 +134,7 @@ namespace Infrastructure.Repositories.User
             }
             var claims = new[]
             {
-                new Claim(ClaimTypes.NameIdentifier , user.Id) ,
+                new Claim("UserId" , user.Id.ToString()) ,
                 new Claim(JwtRegisteredClaimNames.Sub,user.UserName),
                 new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString()),
                 new Claim(JwtRegisteredClaimNames.Email,user.Email)

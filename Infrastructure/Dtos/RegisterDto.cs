@@ -16,6 +16,7 @@ namespace Infrastructure.Dtos
         public string UserName { set; get;  }
         public string Email { set; get; }
         public string Password { set; get; }
+        public string Role { set; get;  }
         public string ConfirmPassword { set; get; }
         public DateTime DateOfHiring { set; get; }
         public int Balance { set; get; }

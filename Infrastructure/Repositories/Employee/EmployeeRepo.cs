@@ -68,5 +68,14 @@ namespace Infrastructure
             var Emp = await Context.Employee.Include(r=>r.Requests).Where(e=> e.Id == UserId).FirstOrDefaultAsync();
             return Emp;
         }
+
+        public async Task<Employee> Update(string UserId , int balance)
+        {
+            var Emp = await GetEmployee(UserId);
+            Emp.Balance = balance;
+            Context.Entry(Emp).State = EntityState.Modified;
+            Context.SaveChanges();
+            return Emp; 
+        }
     }
 }
