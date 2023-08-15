@@ -10,9 +10,9 @@ namespace Infrastructure
 {
     public interface IRequestRepo
     {
-        public Task<Request> Add(RequestDto dto);
+        public Task<Request> Add(RequestDto dto , string UserId);
         public Task<List<Request>> GetAllRequestOfSupervisior(int departmentNo);
-        public Task<List<Request>> GetAllRequestOfGM(int departmentNo);
+        public Task<List<Request>> GetAllRequestOfGM(DateTime date , int departmentNo );
         public Task<Request> Get(int Id);
         public Task<Request> ChangeRequestStateBySupervisior(int Id , int State);
         public Task<Request> ChangeRequestStateByGM(int Id, int State);

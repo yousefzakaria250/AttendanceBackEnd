@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Report\\Report.csproj": {}
+    "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\Report\\Report.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Report\\Report.csproj": {
+    "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\Report\\Report.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Report\\Report.csproj",
+        "projectUniqueName": "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\Report\\Report.csproj",
         "projectName": "Report",
-        "projectPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Report\\Report.csproj",
+        "projectPath": "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\Report\\Report.csproj",
         "packagesPath": "C:\\Users\\yousef.zakaria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Report\\obj\\",
+        "outputPath": "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\Report\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

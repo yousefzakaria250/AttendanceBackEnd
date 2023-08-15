@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Evss6f4YwF7Mf7mfnFFvp1pPyifLHAp6fCgWEyRPjgmcU6fKnL9POJqG5gVJ+o6OvwPHilv45h7wLJ6qqO1ZpA==",
+  "dgSpecHash": "Rf89GbFaXxYtJR6lI7RcjIGSfAztCtxGkIcblYBuiOLl8kKnGZC4cR2A2tpW695/nzqozRsOZVywQkSNIa5R9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Data\\Data.csproj",
+  "projectFilePath": "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.20\\microsoft.aspnetcore.authentication.jwtbearer.6.0.20.nupkg.sha512",
     "C:\\Users\\yousef.zakaria\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.20\\microsoft.aspnetcore.cryptography.internal.6.0.20.nupkg.sha512",

@@ -2139,11 +2139,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Data\\Data.csproj",
+      "projectUniqueName": "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Data\\Data.csproj",
+      "projectPath": "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\yousef.zakaria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Data\\obj\\",
+      "outputPath": "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

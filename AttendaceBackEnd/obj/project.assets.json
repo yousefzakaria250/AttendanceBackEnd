@@ -5638,11 +5638,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
+      "projectUniqueName": "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
       "projectName": "AttendaceBackEnd",
-      "projectPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
+      "projectPath": "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\AttendaceBackEnd\\AttendaceBackEnd.csproj",
       "packagesPath": "C:\\Users\\yousef.zakaria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\AttendaceBackEnd\\obj\\",
+      "outputPath": "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\AttendaceBackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5662,8 +5662,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\yousef.zakaria\\Desktop\\New folder (2)\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj"
+            "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "E:\\Elsquare Projects - 2023\\AttendanceBackEnd\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

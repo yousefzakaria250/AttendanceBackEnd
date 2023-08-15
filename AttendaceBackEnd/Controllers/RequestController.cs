@@ -1,9 +1,12 @@
-﻿using Infrastructure;
+﻿using Data;
+using Infrastructure;
 using Infrastructure.Constants;
 using Infrastructure.Dtos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace AttendaceBackEnd.Controllers
 {
@@ -12,16 +15,21 @@ namespace AttendaceBackEnd.Controllers
     public class RequestController : ControllerBase
     {
         private readonly IRequestRepo requestRepo;
+        private readonly UserManager<Employee> userManager;
 
-        public RequestController(IRequestRepo requestRepo)
+        public RequestController(IRequestRepo requestRepo, UserManager<Employee> userManager)
         {
             this.requestRepo = requestRepo;
+            this.userManager = userManager;
         }
 
         [HttpPost("AddRequest")]
         public async Task<IActionResult> Add( RequestDto requestDto)
         {
-            var res = await requestRepo.Add(requestDto);
+            var userName = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var user = await userManager.FindByNameAsync(userName);
+           // var res = await repo.GetCurrentUser(user.Id);
+            var res = await requestRepo.Add(requestDto , user.Id);
             return Ok(res);
         }
         ///
@@ -46,9 +54,9 @@ namespace AttendaceBackEnd.Controllers
 
         [HttpGet("GetAllRequestOfGm")]
         [Authorize(Roles = "GM")]
-        public async Task<IActionResult> GetAllOfGM(int deptNo)
+        public async Task<IActionResult> GetAllOfGM(DateTime date ,int deptNo = 0 )
         {
-            var res = await requestRepo.GetAllRequestOfGM(deptNo);
+            var res = await requestRepo.GetAllRequestOfGM( date ,deptNo);
             return Ok(res);
         }
 

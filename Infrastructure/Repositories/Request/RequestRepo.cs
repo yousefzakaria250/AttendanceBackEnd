@@ -19,7 +19,7 @@ namespace Infrastructure
             this.attendanceContext = attendanceContext;
         }
 
-        public async Task<Request> Add(RequestDto dto)
+        public async Task<Request> Add(RequestDto dto, string UserId)
         {
             var request = new Request()
             {
@@ -28,7 +28,7 @@ namespace Infrastructure
                  Reason = dto.Reason ,
                  State = 0,
                  DepartmentId = dto.DeptId ,
-                 EmployeeId  = dto.EmployeeId 
+                 EmployeeId  = UserId
             };
             await attendanceContext.AddAsync(request);
             attendanceContext.SaveChanges();
@@ -87,15 +87,15 @@ namespace Infrastructure
             return request;
         }
 
-        public async Task<List<Request>> GetAllRequestOfGM(int departmentNo = 0)
+        public async Task<List<Request>> GetAllRequestOfGM(DateTime date , int departmentNo = 0)
         {
             if (departmentNo == 0)
             {
-                var req = await attendanceContext.Request.Where(w => w.State == 1).ToListAsync();
+                var req = await attendanceContext.Request.Where(w => w.State == 1 && (w.From == date || w.To == date) ).ToListAsync();
                 return req;
             }
             var requests = await attendanceContext.Request
-              .Where(w => w.DepartmentId == departmentNo && w.State == 1)
+              .Where(w => w.DepartmentId == departmentNo && w.State == 1 && (w.From == date || w.To == date))
               .ToListAsync();
             return requests;
     }
