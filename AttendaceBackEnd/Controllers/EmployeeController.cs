@@ -34,20 +34,22 @@ namespace AttendaceBackEnd.Controllers
         }
 
         [HttpGet("GetAllEmployee")]
+        [Authorize]
         public async Task<IActionResult> GetAllEmployee()
         {
             var emp = await employeeRepo.GetAll();
             return Ok(emp);
         }
         [HttpGet("GetAllSupervisior")]
+        [Authorize]
         public async Task<IActionResult> GetAllSupervisior()
         {
             var emp = await employeeRepo.GetAllSupervisior();
             return Ok(emp);
         }
 
-
         [HttpGet("GetAllSupervisiorByDeptId")]
+        [Authorize]
         public async Task<IActionResult> GetAllSupervisiorByDeptId(int DeptId)
         {
             var emp = await employeeRepo.GetAllSupervisiorByDeptId(DeptId);
@@ -55,15 +57,15 @@ namespace AttendaceBackEnd.Controllers
         }
 
         [HttpPut("UpdateEmployee")]
-
+        [Authorize(Roles = "HR")]
         public async Task<IActionResult> UpdateEmployee(string UserId, EmpDto empDto)
         {
             var res = await employeeRepo.Update(UserId, empDto);
             return Ok(res);
-
         }
 
         [HttpPatch("DeleteEmplyee")]
+        [Authorize(Roles = "HR")]
         public async Task<IActionResult> DeleteEmployee(string UserId)
         {
             var res = await employeeRepo.Delete(UserId);
@@ -72,6 +74,7 @@ namespace AttendaceBackEnd.Controllers
         }
 
         [HttpGet("GetAllDeleteEmployee")]
+        [Authorize]
         public async Task<IActionResult> GetAllLeavingEmployee()
         {
             var res = await employeeRepo.GetAllLeavingEmployee();

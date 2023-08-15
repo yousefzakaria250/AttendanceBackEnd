@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,7 +39,6 @@ namespace Infrastructure.Repositories.User
         }
 
 
-
         public async Task<AuthResponse> RegisetrAsync(RegisterDto userDTO)
         {
             //check if user has email registered before
@@ -60,6 +60,8 @@ namespace Infrastructure.Repositories.User
             user.PasswordHash = userDTO.Password;            
             //create user in database
             IdentityResult result = await userManger.CreateAsync(user, userDTO.Password);
+            if (userDTO.Role != "EMPLOYEE")
+                     user.SupervisiorId = null;
             if (result.Succeeded)
             {
                 // assign  new user to Role As user

@@ -63,7 +63,7 @@ namespace Infrastructure
         public async Task<List<Employee>> GetAll()
         {
             
-            var Employees = await Context.Employee.Where(s=> ( s.SupervisiorId != null && s.IsDeleted != 1) ).ToListAsync();
+            var Employees = await Context.Employee.Where(s=> s.IsDeleted != 1).ToListAsync();
             return Employees;
 
         }
