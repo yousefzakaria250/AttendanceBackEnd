@@ -35,12 +35,44 @@ namespace Infrastructure
             return request;
         }
 
-        public async Task<List<Request>> GetAllRequestOfSupervisior(int departmentNo)
+        public async Task<dynamic> GetAllRequestOfSupervisior(string userId)
         {
-            var requests = await attendanceContext.Request
-                .Where(w => w.DepartmentId == departmentNo && w.State == 0)
-                .ToListAsync();
+            var requests = (from p in attendanceContext.Request
+                          join e in attendanceContext.Employee
+                          on p.EmployeeId equals e.Id
+                          where e.SupervisiorId == userId && p.State == 0
+                          select new
+                          {
+                              Id = p.Id,
+                              Fname = e.Fname,
+                              Lname = e.Lname,
+                              State = p.State,
+                              Reason = p.Reason,
+                              From = p.From,
+                              To = p.To
+                          }).ToList();
+
+
             return requests;
+            ////////////////////////////////////////////////////////////
+            //var requests = await attendanceContext.Request
+            //    .Join(  attendanceContext.Employee,
+            //          p => p.EmployeeId,
+            //          e => e.Id,
+
+            //          (p, e) => new {
+            //              Id = p.Id ,
+            //              Fname = e.Fname ,
+            //              Lname = e.Lname ,
+            //              State = p.State ,
+            //              Reason = p.Reason ,
+            //              From = p.From ,
+            //              To = p.To
+            //          }
+            //          )
+            //    .Where(w=> w.State == 0)
+            //    .ToListAsync();
+            //return requests;
         }
 
         public async Task<Request> ChangeRequestStateBySupervisior(int Id, int State)

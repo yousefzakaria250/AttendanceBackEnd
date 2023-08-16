@@ -7,8 +7,10 @@ using Infrastructure.Repositories.User;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -16,27 +18,26 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(name: "_myAllowSpecificOrigins",
-                      policy =>
-                      {
-                          policy.WithOrigins().AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
-                      });
-});
 
+builder.Services.AddCors(options =>
+options.AddPolicy(name: MyAllowSpecificOrigins,
+                  policy =>
+                  {
+                      policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                  })
+);
 
 builder.Services.AddDbContext<AttendanceContext>(
         options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("AttendConnection")));
 builder.Services.AddHttpContextAccessor();
-//builder.Services.Configure<JWT>(builder.Configuration.GetSection("JWT"));
+builder.Services.Configure<JWT>(builder.Configuration.GetSection("JWT"));
 builder.Services.AddIdentity<Employee, IdentityRole>().AddEntityFrameworkStores<AttendanceContext>()
     .AddDefaultTokenProviders();
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme; 
     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 })
                 .AddJwtBearer(options =>
@@ -67,8 +68,9 @@ var app = builder.Build();
     app.UseSwaggerUI();
 //}
 app.UseHttpsRedirection();
-app.UseCors("_myAllowSpecificOrigins");
-app.MapControllers();
+app.UseCors(MyAllowSpecificOrigins);
+
 app.UseAuthentication();
 app.UseAuthorization();
+app.MapControllers();
 app.Run();

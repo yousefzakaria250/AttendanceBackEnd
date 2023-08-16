@@ -35,9 +35,11 @@ namespace AttendaceBackEnd.Controllers
         ///
         [HttpGet("GetAllRequestsSupervisior")]
         [Authorize(Roles = "DM")]
-        public async Task<IActionResult> GetAll(int deptNo)
+        public async Task<IActionResult> GetAll()
         {
-            var res = await requestRepo.GetAllRequestOfSupervisior(deptNo);
+            var userName = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var user = await userManager.FindByNameAsync(userName);
+            var res = await requestRepo.GetAllRequestOfSupervisior(user.Id);
             return Ok(res);
         }
 
