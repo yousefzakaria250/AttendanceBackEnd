@@ -12,7 +12,7 @@ namespace Infrastructure
     {
         public Task<Request> Add(RequestDto dto , string UserId);
         public Task<dynamic> GetAllRequestOfSupervisior(string userId);
-        public Task<List<Request>> GetAllRequestOfGM(DateTime date , int departmentNo );
+        public Task<dynamic> GetAllRequestOfGM( int departmentNo );
         public Task<Request> Get(int Id);
         public Task<Request> ChangeRequestStateBySupervisior(int Id , int State);
         public Task<Request> ChangeRequestStateByGM(int Id, int State);

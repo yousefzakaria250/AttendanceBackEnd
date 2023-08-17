@@ -24,6 +24,7 @@ namespace AttendaceBackEnd.Controllers
         }
 
         [HttpPost("AddRequest")]
+        [Authorize]
         public async Task<IActionResult> Add( RequestDto requestDto)
         {
             var userName = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -44,9 +45,9 @@ namespace AttendaceBackEnd.Controllers
         }
 
 
-        [HttpPatch("ChangeRequestStateOfSupervisior")]
+        [HttpPut("ChangeRequestStateOfSupervisior")]
         [Authorize(Roles = "DM")]
-        public async Task<IActionResult> UpdateState( int Id , int State)
+        public async Task<IActionResult> UpdateState(int Id , int State)
         {
             var res = await requestRepo.ChangeRequestStateBySupervisior(Id, State);
             if (res == null)
@@ -56,17 +57,18 @@ namespace AttendaceBackEnd.Controllers
 
         [HttpGet("GetAllRequestOfGm")]
         [Authorize(Roles = "GM")]
-        public async Task<IActionResult> GetAllOfGM(DateTime date ,int deptNo = 0 )
+        public async Task<IActionResult> GetAllOfGM (int deptNo = 0 )
         {
-            var res = await requestRepo.GetAllRequestOfGM( date ,deptNo);
+            var res = await requestRepo.GetAllRequestOfGM(deptNo);
             return Ok(res);
         }
 
 
-        [HttpPatch("ChangeRequestStateByGM")]
+        [HttpPut("ChangeRequestStateByGM")]
         [Authorize(Roles = "GM")]
-        public async Task<IActionResult> UpdateStateByGm(int Id, int State)
+        public async Task<IActionResult> UpdateStateByGm( int Id , int State)
         {
+            
             var res = await requestRepo.ChangeRequestStateByGM(Id, State);
             if(res== null)
                 return NotFound("This Request Not Found .");

@@ -21,15 +21,17 @@ namespace Infrastructure
 
         public async Task<Request> Add(RequestDto dto, string UserId)
         {
+            var SupervisiorRequest = await attendanceContext.Employee.Where(e => (e.Id == UserId && e.SupervisiorId == null)).FirstOrDefaultAsync();
             var request = new Request()
             {
                  From = dto.From ,
                  To = dto.To ,
                  Reason = dto.Reason ,
-                 State = 0,
+                 State =  (SupervisiorRequest == null) ? 0 : 1,
                  DepartmentId = dto.DeptId ,
                  EmployeeId  = UserId
             };
+
             await attendanceContext.AddAsync(request);
             attendanceContext.SaveChanges();
             return request;
@@ -37,7 +39,7 @@ namespace Infrastructure
 
         public async Task<dynamic> GetAllRequestOfSupervisior(string userId)
         {
-            var requests = (from p in attendanceContext.Request
+            var requests =await  (from p in attendanceContext.Request
                           join e in attendanceContext.Employee
                           on p.EmployeeId equals e.Id
                           where e.SupervisiorId == userId && p.State == 0
@@ -50,29 +52,10 @@ namespace Infrastructure
                               Reason = p.Reason,
                               From = p.From,
                               To = p.To
-                          }).ToList();
+                          }).ToListAsync();
 
 
             return requests;
-            ////////////////////////////////////////////////////////////
-            //var requests = await attendanceContext.Request
-            //    .Join(  attendanceContext.Employee,
-            //          p => p.EmployeeId,
-            //          e => e.Id,
-
-            //          (p, e) => new {
-            //              Id = p.Id ,
-            //              Fname = e.Fname ,
-            //              Lname = e.Lname ,
-            //              State = p.State ,
-            //              Reason = p.Reason ,
-            //              From = p.From ,
-            //              To = p.To
-            //          }
-            //          )
-            //    .Where(w=> w.State == 0)
-            //    .ToListAsync();
-            //return requests;
         }
 
         public async Task<Request> ChangeRequestStateBySupervisior(int Id, int State)
@@ -85,6 +68,7 @@ namespace Infrastructure
                 request.State = -1;
                 attendanceContext.Entry(request).State = EntityState.Modified;
                 attendanceContext.SaveChanges();
+                return request;
             }
            
             request.State = 1;
@@ -119,17 +103,52 @@ namespace Infrastructure
             return request;
         }
 
-        public async Task<List<Request>> GetAllRequestOfGM(DateTime date , int departmentNo = 0)
+        public async Task<dynamic> GetAllRequestOfGM(int departmentNo)
         {
-            if (departmentNo == 0)
-            {
-                var req = await attendanceContext.Request.Where(w => w.State == 1 && (w.From == date || w.To == date) ).ToListAsync();
-                return req;
-            }
-            var requests = await attendanceContext.Request
-              .Where(w => w.DepartmentId == departmentNo && w.State == 1 && (w.From == date || w.To == date))
-              .ToListAsync();
+
+            var requests = 
+                (departmentNo == 0) ? await (from p in attendanceContext.Request
+                                                        join e in attendanceContext.Employee
+                                                        on p.EmployeeId equals e.Id
+                                                        where p.State == 1
+                                                        select new
+                                                        {
+                                                            Id = p.Id,
+                                                            Fname = e.Fname,
+                                                            Lname = e.Lname,
+                                                            State = p.State,
+                                                            Reason = p.Reason,
+                                                            From = p.From,
+                                                            To = p.To
+                                                        }).ToListAsync() : await (from p in attendanceContext.Request
+                                                                                  join e in attendanceContext.Employee
+                                                                                  on p.EmployeeId equals e.Id
+                                                                                  where p.State == 1 && p.DepartmentId == departmentNo
+                                                                                  select new
+                                                                                  {
+                                                                                      Id = p.Id,
+                                                                                      Fname = e.Fname,
+                                                                                      Lname = e.Lname,
+                                                                                      State = p.State,
+                                                                                      Reason = p.Reason,
+                                                                                      From = p.From,
+                                                                                      To = p.To
+                                                                                  }).ToListAsync();
+
             return requests;
+
+            //if (departmentNo == 0) { 
+            //    //{
+            //    //    var req =  (date == null)?(await attendanceContext.Request.Where(w => w.State == 1).ToListAsync()) :
+            //    //        await attendanceContext.Request.Where(w => w.State == 1 && (w.From == date || w.To == date) ).ToListAsync();
+            //    var req = await attendanceContext.Request.Where(w => w.State == 1).ToListAsync();
+
+            //    return req;
+            //}
+            //var requests = await attendanceContext.Request
+            //  .Where(w => w.DepartmentId == departmentNo && w.State == 1 )
+            //  .ToListAsync();
+            //return requests;
     }
 
         public async Task<Request> Delete(int Id)
