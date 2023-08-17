@@ -11,8 +11,5 @@ public class JWT
     public string secret { get; set; }
     public string ValidIssuer { get; set; }
     public string ValidAudiance { get; set; }
-    public double DurationInDays
-    {
-        get; set;
-    }
+    public double DurationInDays {   get; set; }
 }
