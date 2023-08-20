@@ -32,11 +32,23 @@ namespace AttendaceBackEnd.Controllers
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             LocalReport report = new LocalReport(path);
             report.AddDataSource("DataSet1",attendanceContext.GetAllAttendance(dateTime));
-            var result = report.Execute(RenderType.Pdf, 1);
             
-            return File(result.MainStream,
+            var result = report.Execute(RenderType.Pdf, 1);
+
+          // var directoryName = Path.GetDirectoryName(Directory.GetCurrentDirectory());
+
+
+
+            //return Ok (File(directoryName,
+            //    System.Net.Mime.MediaTypeNames.Application.Pdf,
+            //    "ReportName.pdf"
+            //    ));
+
+
+            return (File(result.MainStream,
                 System.Net.Mime.MediaTypeNames.Application.Octet,
-                "ReportName.pdf");
+                "ReportName.pdf"
+                ));
         }
 
     }
