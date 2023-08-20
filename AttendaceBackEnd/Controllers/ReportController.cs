@@ -23,7 +23,7 @@ namespace AttendaceBackEnd.Controllers
 
 
         [HttpGet]
-        [Authorize(Roles = "HR")]
+        [Authorize(Roles = "HR,GM")]
         public ActionResult Export_Data(DateTime dateTime)
         {
 
